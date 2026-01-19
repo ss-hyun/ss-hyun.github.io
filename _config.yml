@@ -2,13 +2,16 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
+# Development settings
+livereload: true
+force_polling: true
+
 title: somltheory.glitch # the website title (if blank, full name will be used instead)
-display_name: sshyun # name shown on the about page (if blank, title or full name will be used)
+display_name: Suhyun Kim # name shown on the about page (if blank, title or full name will be used)
 first_name: Suhyun
 middle_name: 
 last_name: Kim
-contact_note: >
-  You can even add a little note about which of these is the best way to reach you.
+contact_note: ""
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
 footer_text: >
@@ -651,14 +654,14 @@ jekyll_get_json:
 
 jsonresume:
   - basics
-  - work
   - education
+  - work
   - publications
   - projects
-  - volunteer
   - awards
-  - certificates
+  - academic_service
   - skills
   - languages
   - interests
   - references
+  - certificates
