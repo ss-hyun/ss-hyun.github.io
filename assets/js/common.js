@@ -18,11 +18,13 @@ $(document).ready(function () {
   $("a").removeClass("waves-effect waves-light");
 
   // bootstrap-toc
+  // remove related publications years from the TOC
+  $(".publications h2").each(function () {
+    $(this).attr("data-toc-skip", "");
+  });
+
+  // sidebar TOC
   if ($("#toc-sidebar").length) {
-    // remove related publications years from the TOC
-    $(".publications h2").each(function () {
-      $(this).attr("data-toc-skip", "");
-    });
     var navSelector = "#toc-sidebar";
     var $myNav = $(navSelector);
     Toc.init($myNav);
@@ -30,6 +32,12 @@ $(document).ready(function () {
       target: navSelector,
       offset: 100,
     });
+  }
+
+  // beginning TOC (at the start of content)
+  if ($("#toc-beginning").length) {
+    var $tocBeginning = $("#toc-beginning");
+    Toc.init($tocBeginning);
   }
 
   // add css to jupyter notebooks
