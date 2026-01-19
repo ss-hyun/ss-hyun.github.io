@@ -2,96 +2,82 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
-    - name: Languages
-      value: English, German
+      value: Suhyun Kim
+    - name: Email
+      value: sshyunn@yonsei.ac.kr
+    - name: Location
+      value: Seoul, South Korea
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
-      description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
-      description:
-        - Description 1.
-        - Description 2.
+    - title: M.S./Ph.D. in Artificial Intelligence
+      institution: Yonsei University
+      year: 2024 - Present
+    - title: B.S. in Physics & B.S. in Software and Computer Engineering
+      institution: Ajou University
+      year: 2017 - 2023
 
-- title: Experience
+- title: Research Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: M.S./Ph.D. Student
+      institution: Medical Imaging and Computer Vision Lab, Yonsei University
+      year: 2024 - Present
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+        - "Hierarchy-Aware Brain-AI Alignment (DIVER-CLIP): Developing a tri-modal foundation model by aligning iEEG embeddings with a audio-text latent space."
+        - "Medical Image Translation (Accepted to ISBI 2026): Proposed a robust MRI modality translation method using Test-Time Augmentation."
+    - title: Undergraduate Researcher
+      institution: Biomedical Photonics Lab, Ajou University
+      year: 2022 - 2023
       description:
-        - Description 1.
-        - Description 2.
-
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
+        - "Deep Learning for Hyperspectral Imaging (Published in J. Phys. D): Designed physics-informed loss functions and synthetic data to enhance spectral resolution."
+    - title: Undergraduate Researcher
+      institution: Computer System Lab, Ajou University
+      year: 2021 - 2022
       description:
+        - "System Optimization: Analyzed memory management overhead in Linux hierarchical memory systems."
 
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
+- title: Work Experience
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - title: AI Engineer
+      institution: NextLab
+      year: 2023
+      description:
+        - "Cloud-based Vehicle Recognition System: Developed an end-to-end AI training pipeline in a cloud environment and deployed optimized models for an automated parking management system."
 
 - title: Honors and Awards
   type: time_table
   contents:
-    - year: 1921
+    - year: 2025
       items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
+        - Baekam Foundation Scholarship (External grant for high future potential)
+    - year: 2024
       items:
-        - Max Planck Medal
+        - YGF Scholarship (Awarded for outstanding research potential)
+    - year: 2022
+      items:
+        - Blue Ladder Global Scholarship (Ministry of Education & KOSAF, Selected as Student Representative)
+        - Encouragement Award in Research (Physics Dept. Poster Presentation)
+    - year: 2021
+      items:
+        - Excellence Award in Research (Softcon)
+    - year: 2017 - 2020
+      items:
+        - Lotte Foundation Scholarship (Full-ride for high-potential undergraduates)
 
-- title: Academic Interests
-  type: nested_list
-  contents:
-    - title: Topic 1.
-      items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
-      items:
-        - Description 1.
-        - Description 2.
-
-- title: Other Interests
+- title: Academic Service
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - "Reviewer for IEEE ISBI 2026"
+
+- title: Skills
+  type: nested_list
+  contents:
+    - title: Languages & Frameworks
+      items:
+        - Python, C/C++, Java, MySQL, PyTorch
+    - title: Tools
+      items:
+        - Linux (Ubuntu/CentOS), HPC (KISTI), Cloud (Kakao i Cloud), Docker, Git, LaTeX, Markdown

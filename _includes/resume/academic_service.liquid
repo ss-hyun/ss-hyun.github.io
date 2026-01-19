@@ -1,0 +1,23 @@
+<ul class="card-text font-weight-light list-group list-group-flush">
+  {% for service in site.data.resume.academic_service %}
+    <li class="list-group-item">
+      <div class="row">
+        {% if service.year %}
+          <div class="col-xs-2 col-sm-2 col-md-2 text-center" style="width: 75px;">
+            <span class="badge font-weight-bold danger-color-dark text-uppercase align-middle" style="min-width: 75px;">
+              {{ service.year }}
+            </span>
+          </div>
+        {% endif %}
+        <div class="col-xs-10 col-sm-10 col-md-10 mt-2 mt-md-0 ml-xl-3">
+          {% if service.title %}
+            <h6 class="title font-weight-bold">{{ service.title }}</h6>
+          {% endif %}
+          {% if service.organization %}
+            <span class="text-muted">{{ service.organization }}</span>
+          {% endif %}
+        </div>
+      </div>
+    </li>
+  {% endfor %}
+</ul>
