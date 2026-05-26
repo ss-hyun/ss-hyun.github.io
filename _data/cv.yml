@@ -1,97 +1,89 @@
-- title: General Information
-  type: map
-  contents:
-    - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
-    - name: Languages
-      value: English, German
-
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: M.S. in Artificial Intelligence
+      institution: Yonsei University
+      year: Mar 2024 - Present
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
-      description:
-        - Description 1.
-        - Description 2.
+        - "Advisor: Prof. Seong Jae Hwang"
+    - title: B.S. in Physics & B.S. in Software and Computer Engineering
+      institution: Ajou University
+      year: Mar 2017 - Aug 2023
+
+- title: Research Interests
+  type: nested_list
+  contents:
+    - title: Brain-AI Alignment
+      items:
+        - Brain Decoding
+        - Multimodal Alignment
+        - Subject Invariance
+    - title: Self-Supervised Learning
+      items:
+        - Foundation Models
+        - Domain-Specific Inductive Biases
 
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Intern, AI Engineer
+      institution: NextLab
+      year: Mar 2023 - Jun 2023
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+        - "Cloud-based Vehicle Recognition System. Built a cloud training pipeline and optimized inference models for an automated parking management system."
+    - title: Research Intern
+      institution: Biomedical Photonics Lab, Ajou University
+      year: Jul 2022 - Feb 2023
       description:
-        - Description 1.
-        - Description 2.
-
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
+        - "Deep Learning for Hyperspectral Imaging. Designed physics-informed loss functions and synthetic spectral data to enhance the resolution of a hyperspectral imaging system."
+    - title: Research Intern
+      institution: Computer System Lab, Ajou University
+      year: Sep 2021 - Jun 2022
       description:
-
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
-  type: time_table
-  contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+        - "System Optimization. Analyzed memory-management overhead in Linux hierarchical memory systems and profiled performance bottlenecks."
 
 - title: Honors and Awards
   type: time_table
   contents:
-    - year: 1921
-      items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
-      items:
-        - Max Planck Medal
+    - title: Baekam Foundation Scholarship
+      year: Feb 2025 - Present
+      description:
+        - External grant awarded for high future potential
+    - title: YGF Scholarship
+      institution: Yonsei University
+      year: Spring & Fall 2024
+      description:
+        - Awarded for outstanding research potential
+    - title: Encouragement Award, Physics Poster
+      institution: Ajou University
+      year: Jun 2022
+      description:
+        - Physics Poster Session; awarded by the Chair, Dept. of Physics
+    - title: Blue Ladder Global Scholarship
+      institution: MOE & KOSAF
+      year: 2022
+      description:
+        - Government-funded overseas training; selected as Student Representative
+    - title: Excellence Award, AJOU SOFTCON
+      institution: Ajou University
+      year: Dec 2021
+      description:
+        - Research Division; awarded by the Director of the SW Education Center
+    - title: Lotte Foundation Scholarship
+      year: Fall 2017 - Fall 2020
+      description:
+        - Full-ride scholarship for high-potential undergraduates
 
-- title: Academic Interests
-  type: nested_list
-  contents:
-    - title: Topic 1.
-      items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
-      items:
-        - Description 1.
-        - Description 2.
-
-- title: Other Interests
+- title: Academic Service
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - "Conference Reviewer: ISBI 2026, ICML 2026"
+
+- title: Teaching Experiences
+  type: time_table
+  contents:
+    - title: Teaching Assistant
+      institution: Yonsei University
+      year: Spring 2024
+      description:
+        - "Deep Learning Introduction and Applications"
