@@ -9,9 +9,7 @@ nav_order: 2
 
 <!-- _pages/publications.md -->
 
-<!-- Bibsearch Feature -->
-
-{% include bib_search.liquid %}
+<p style="text-align: right; font-style: italic;">*: Equal Contribution, †: Corresponding Author</p>
 
 <div class="publications">
 
