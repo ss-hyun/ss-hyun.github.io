@@ -6,17 +6,33 @@ layout: default
     {% if page.profile %}
       <div class="profile float-{% if page.profile.align == 'left' %}left{% else %}right{% endif %}">
         {% if page.profile.image %}
-          {% assign profile_image_path = page.profile.image | prepend: 'assets/img/' %}
+          {% assign profile_image_path = page.profile.image | prepend: 'assets/img/' | relative_url %}
           {% if page.profile.image_circular %}
             {% assign profile_image_class = 'img-fluid z-depth-1 rounded-circle' %}
           {% else %}
             {% assign profile_image_class = 'img-fluid z-depth-1 rounded' %}
           {% endif %}
-          {% capture sizes %}(min-width: {{ site.max_width }}) {{ site.max_width | minus: 30 | times: 0.3}}px, (min-width: 576px) 30vw, 95vw"{% endcapture %}
-          {%
-            include figure.liquid loading="eager" path=profile_image_path class=profile_image_class sizes=sizes alt=page.profile.image
-            cache_bust=true
-          %}
+          <div class="profile-image-container" style="position: relative;">
+            <img src="{{ profile_image_path }}" alt="{{ page.profile.image }}" class="{{ profile_image_class }} profile-default">
+            {% if page.profile.image_hover %}
+              {% assign hover_image_path = page.profile.image_hover | prepend: 'assets/img/' | relative_url %}
+              <img
+                src="{{ hover_image_path }}"
+                alt="hover"
+                class="{{ profile_image_class }} profile-hover"
+                style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; opacity: 0; transition: opacity 0.3s;"
+              >
+            {% endif %}
+          </div>
+          <style>
+            .profile-image-container:hover .profile-default {
+              opacity: 0 !important;
+              transition: opacity 0.3s;
+            }
+            .profile-image-container:hover .profile-hover {
+              opacity: 1 !important;
+            }
+          </style>
         {% endif %}
         {% if page.profile.more_info %}
           <div class="more-info">{{ page.profile.more_info }}</div>
@@ -65,7 +81,6 @@ layout: default
       </h2>
       {% include selected_papers.liquid %}
     {% endif %}
-
 
     {% if site.newsletter and site.newsletter.enabled and site.footer_fixed %}
       {% include newsletter.liquid center=true %}
