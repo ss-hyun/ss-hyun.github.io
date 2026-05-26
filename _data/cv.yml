@@ -3,12 +3,12 @@
   contents:
     - title: M.S. in Artificial Intelligence
       institution: Yonsei University
-      year: Mar 2024 - Present
+      year: 2024.03 - Present
       description:
         - "Advisor: Prof. Seong Jae Hwang"
     - title: B.S. in Physics & B.S. in Software and Computer Engineering
       institution: Ajou University
-      year: Mar 2017 - Aug 2023
+      year: 2017.03 - 2023.08
 
 - title: Research Interests
   type: nested_list
@@ -28,17 +28,17 @@
   contents:
     - title: Intern, AI Engineer
       institution: NextLab
-      year: Mar 2023 - Jun 2023
+      year: 2023.03 - 2023.06
       description:
         - "Cloud-based Vehicle Recognition System. Built a cloud training pipeline and optimized inference models for an automated parking management system."
     - title: Research Intern
       institution: Biomedical Photonics Lab, Ajou University
-      year: Jul 2022 - Feb 2023
+      year: 2022.07 - 2023.02
       description:
         - "Deep Learning for Hyperspectral Imaging. Designed physics-informed loss functions and synthetic spectral data to enhance the resolution of a hyperspectral imaging system."
     - title: Research Intern
       institution: Computer System Lab, Ajou University
-      year: Sep 2021 - Jun 2022
+      year: 2021.09 - 2022.06
       description:
         - "System Optimization. Analyzed memory-management overhead in Linux hierarchical memory systems and profiled performance bottlenecks."
 
@@ -46,17 +46,17 @@
   type: time_table
   contents:
     - title: Baekam Foundation Scholarship
-      year: Feb 2025 - Present
+      year: 2025.02 - Present
       description:
         - External grant awarded for high future potential
     - title: YGF Scholarship
       institution: Yonsei University
-      year: Spring & Fall 2024
+      year: 2024
       description:
         - Awarded for outstanding research potential
     - title: Encouragement Award, Physics Poster
       institution: Ajou University
-      year: Jun 2022
+      year: 2022
       description:
         - Physics Poster Session; awarded by the Chair, Dept. of Physics
     - title: Blue Ladder Global Scholarship
@@ -66,11 +66,11 @@
         - Government-funded overseas training; selected as Student Representative
     - title: Excellence Award, AJOU SOFTCON
       institution: Ajou University
-      year: Dec 2021
+      year: 2021
       description:
         - Research Division; awarded by the Director of the SW Education Center
     - title: Lotte Foundation Scholarship
-      year: Fall 2017 - Fall 2020
+      year: 2017 - 2020
       description:
         - Full-ride scholarship for high-potential undergraduates
 
@@ -84,6 +84,6 @@
   contents:
     - title: Teaching Assistant
       institution: Yonsei University
-      year: Spring 2024
+      year: 2024 Spring
       description:
         - "Deep Learning Introduction and Applications"
