@@ -9,7 +9,7 @@ force_polling: true
 title: somltheory.glitch # the website title (if blank, full name will be used instead)
 display_name: Suhyun Kim # name shown on the about page (if blank, title or full name will be used)
 first_name: Suhyun
-middle_name: 
+middle_name:
 last_name: Kim
 contact_note: ""
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
