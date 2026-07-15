@@ -18,6 +18,11 @@
         - Brain Decoding
         - Multimodal Alignment
         - Subject Invariance
+    - title: Collaborative and Federated Learning
+      items:
+        - Federated LLM Fine-Tuning
+        - Statistical Heterogeneity
+        - Scalable Optimization
     - title: Self-Supervised Learning
       items:
         - Foundation Models
